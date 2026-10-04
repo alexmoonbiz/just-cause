@@ -37,6 +37,10 @@ SCHEMA_FIELDS = ["team_rule_id", "jurisdiction", "level", "category", "status", 
                  "confidence", "conflict_flag", "conflict_note"]
 EXTRA_PUBLIC = ["retrieved_at"]  # ties each rule to its retrieval date; schema allows extra props
 EXT_FIELDS = ["defers_to_local", "coverage_dsl", "exemption_dsl", "unstructured_conditions"]
+# Who can own a building. Extraction sometimes puts another party here ("end_consumer",
+# "real_estate_licensee"); an exemption for someone who is not the owner cannot exempt a building.
+OWNER_TYPES = {"owner_occupied", "natural_person", "corporation", "limited_liability_company",
+               "real_estate_investment_trust"}
 
 _MAP = {
     "‘": "'", "’": "'", "‚": "'", "‛": "'", "′": "'",
@@ -185,6 +189,19 @@ def verify(raw_path: Path, corpus: Path, out_rules: Path, out_ext: Path, flag_on
                 notes.append("status corrected: effective date is on or before 2026-10-01")
         if r.get("status") not in ("in_force", "not_yet_effective", "pending", "failed"):
             problems.append(f"bad_status:{r.get('status')}")
+
+        # ---- exemptions that name a party other than the owner ---------------------------
+        groups = []
+        for g in r.get("exemption_dsl") or []:
+            conds = g.get("all_of", []) if isinstance(g, dict) else g
+            bad = [c.get("value") for c in conds if isinstance(c, dict) and c.get("field") == "owner_type"
+                   and c.get("op") in ("==", "!=") and str(c.get("value")) not in OWNER_TYPES]
+            if bad:
+                notes.append(f"exemption dropped: owner_type {bad[0]!r} is not a kind of property owner")
+            else:
+                groups.append(g)
+        if r.get("exemption_dsl"):
+            r["exemption_dsl"] = groups
 
         # ---- confidence ----------------------------------------------------------------
         c = r.get("confidence")

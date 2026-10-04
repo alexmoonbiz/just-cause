@@ -258,7 +258,7 @@
  "T2": {
   "affected_address_ids": [],
   "conflict_flag_address_ids": [],
-  "notes": "Hoboken and Jersey City local algorithmic bans bind only their own addresses; Newark gets neither. Rules used: none. NO RULES MATCHED this test's selector: extraction missed it, or the selector in config/tests.json needs adjusting"
+  "notes": "Hoboken and Jersey City local algorithmic bans bind only their own addresses; Newark gets neither. Rules used: none. Corpus gap: the Hoboken and Jersey City ordinances (D032-D035) are listed in the source pack only as links, with no ordinance text, so there is nothing to extract or cite. The zero is the honest answer; no rule is invented to fill it."
  },
  "T3": {
   "affected_address_ids": [

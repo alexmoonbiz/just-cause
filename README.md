@@ -1,5 +1,7 @@
 # Rental Housing Law Navigator — Participant Guide
 
+> **Live demo:** https://just-cause-housing.replit.app/ · **How to run it:** [README_RUN.md](README_RUN.md)
+
 MIT AI Hackathon · 24 hours · public data only · Realpage discussion draft, October 2026
 
 > This guide and the starter pack are everything you need to build. Read sections 1–4 before you start coding.

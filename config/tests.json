@@ -13,7 +13,8 @@
       {"jurisdiction": "Hoboken, NJ", "category": "algorithmic_rent_setting"},
       {"jurisdiction": "Jersey City, NJ", "category": "algorithmic_rent_setting"}
     ],
-    "as_of": "2026-10-01"
+    "as_of": "2026-10-01",
+    "known_gap": "Corpus gap: the Hoboken and Jersey City ordinances (D032-D035) are listed in the source pack only as links, with no ordinance text, so there is nothing to extract or cite. The zero is the honest answer; no rule is invented to fill it."
   },
   "T3": {
     "type": "as_of",

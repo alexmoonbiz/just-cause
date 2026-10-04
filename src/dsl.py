@@ -200,6 +200,21 @@ class Condition:
             res = Tri.TRUE if hit == (op == "in") else Tri.FALSE
             return res, f"{f}={actual}"
 
+        if f == "year_built" and re.match(r"^\d{4}-\d{2}", str(want).strip()):
+            # Extraction sometimes writes the statute's cutoff date on year_built
+            # ("built before October 1, 1978"). The data holds only a year, so compare
+            # the whole calendar year: 1927 is clearly before, 1978 is too close to call.
+            cutoff = parse_interval(want)
+            try:
+                built = parse_interval(str(int(float(actual))))
+            except (TypeError, ValueError):
+                built = None
+            if cutoff is None or cutoff[0] != cutoff[1] or built is None:
+                return Tri.UNKNOWN, f"{f} not comparable"
+            res = compare_interval(op, built, cutoff[0])
+            why = f"year built {int(float(actual))} vs cutoff {cutoff[0].isoformat()}"
+            return res, (why if res is not Tri.UNKNOWN else why + " is too close to call")
+
         if f in ("year_built", "units"):
             try:
                 a, b = float(actual), float(want)

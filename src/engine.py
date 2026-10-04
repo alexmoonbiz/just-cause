@@ -253,15 +253,19 @@ class Engine:
                     ents = self.evaluate(aid, when, self.select(cfg["selector"]) + self.select(cfg["conflict_with"]))
                     if any(e["conflict_flag"] for e in ents):
                         conflicts.append(aid)
-            if not sel:
+            gap = cfg.get("known_gap") if not sel else None
+            if not sel and not gap:
                 warn.append("NO RULES MATCHED this test's selector: extraction missed it, or the selector in config/tests.json needs adjusting")
             if kind == "negative" and affected:
                 warn.append(f"VIOLATION: {len(affected)} addresses show a rent cap that this test requires to be empty")
             ids = ", ".join(r["team_rule_id"] for r in sel) or "none"
             out[tid] = {"affected_address_ids": affected, "conflict_flag_address_ids": conflicts,
-                        "notes": f"{cfg.get('describe', '')} Rules used: {ids}. {' '.join(warn)}".strip()}
+                        "notes": " ".join(x for x in [cfg.get("describe", ""), f"Rules used: {ids}.", gap or "",
+                                                      *warn] if x)}
             for w in warn:
                 print(f"  !! {tid}: {w}", file=sys.stderr)
+            if gap:
+                print(f"  -- {tid}: known gap declared in config/tests.json", file=sys.stderr)
         return out, used
 
 

@@ -209,7 +209,9 @@ with tab_tests:
                     st.error("Violation: a rent cap is reported where none may be.")
                 else:
                     st.success("Empty set, as required: no rent cap is reported for Boston or Cambridge.")
-            if not used[tid]:
+            if not used[tid] and cfg.get("known_gap"):
+                st.info("Known gap. " + cfg["known_gap"])
+            elif not used[tid]:
                 st.error("No rules matched this test. Extraction may have missed it, or the selector needs adjusting.")
             else:
                 st.dataframe(used[tid], hide_index=True, use_container_width=True)

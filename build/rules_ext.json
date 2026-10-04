@@ -481,20 +481,12 @@
   "r-0028": {
     "defers_to_local": false,
     "coverage_dsl": [],
-    "exemption_dsl": [
-      {
-        "all_of": [
-          {
-            "field": "owner_type",
-            "op": "!=",
-            "value": "end_consumer"
-          }
-        ]
-      }
-    ],
+    "exemption_dsl": [],
     "unstructured_conditions": null,
     "citation_check": "exact",
-    "notes": [],
+    "notes": [
+      "exemption dropped: owner_type 'end_consumer' is not a kind of property owner"
+    ],
     "source_type": "official",
     "supplementary": false
   },
@@ -1423,21 +1415,13 @@
             "value": "2"
           }
         ]
-      },
-      {
-        "all_of": [
-          {
-            "field": "owner_type",
-            "op": "==",
-            "value": "real_estate_licensee"
-          }
-        ]
       }
     ],
     "unstructured_conditions": null,
     "citation_check": "exact",
     "notes": [
-      "status corrected: effective date is on or before 2026-10-01"
+      "status corrected: effective date is on or before 2026-10-01",
+      "exemption dropped: owner_type 'real_estate_licensee' is not a kind of property owner"
     ],
     "source_type": "official",
     "supplementary": false

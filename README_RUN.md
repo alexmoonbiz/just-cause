@@ -1,5 +1,7 @@
 # Rental Housing Law Navigator: run guide
 
+Live demo: https://just-cause-housing.replit.app/
+
     pip install -r requirements.txt
     export OPENAI_API_KEY=sk-...             # use a dedicated hackathon project
     make estimate                           # ~$1.90 on gpt-4.1 (estimate)

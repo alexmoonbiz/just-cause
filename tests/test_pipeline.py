@@ -49,6 +49,17 @@ def test_certificate_cutoff_uses_year_as_interval():
     assert cov(la, facts={"year_built": 1977}) is Tri.TRUE
 
 
+def test_date_cutoff_written_on_year_built_compares_the_whole_year():
+    la = [cond("year_built", "<=", "1978-10-01")]
+    assert cov(la, facts={"year_built": 1927}) is Tri.TRUE
+    assert cov(la, facts={"year_built": 1990}) is Tri.FALSE
+    assert cov(la, facts={"year_built": 1978}) is Tri.UNKNOWN
+    new = [cond("year_built", ">=", "2011-04-01")]
+    assert cov(new, facts={"year_built": 2015}) is Tri.TRUE
+    assert cov(new, facts={"year_built": 1960}) is Tri.FALSE
+    assert cov(new, facts={"year_built": 2011}) is Tri.UNKNOWN
+
+
 def test_exemption_group_is_an_AND_so_big_buildings_escape_owner_occupied_exemption():
     nj_deposit_exemption = [{"all_of": [cond("owner_type", "==", "owner_occupied"), cond("units", "<=", "2")]}]
     # 32 units: group is FALSE even though owner_type is unknown -> rule applies
