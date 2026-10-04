@@ -1,0 +1,46 @@
+{
+  "T1": {
+    "type": "as_of",
+    "describe": "CA AB 325 / SB 763 (algorithmic pricing): not_yet_effective on 2025-12-31, applies on 2026-01-02.",
+    "selector": {"jurisdiction": "CA", "level": "state", "category": "algorithmic_rent_setting"},
+    "before": "2025-12-31",
+    "after": "2026-01-02"
+  },
+  "T2": {
+    "type": "boundary",
+    "describe": "Hoboken and Jersey City local algorithmic bans bind only their own addresses; Newark gets neither.",
+    "selector": [
+      {"jurisdiction": "Hoboken, NJ", "category": "algorithmic_rent_setting"},
+      {"jurisdiction": "Jersey City, NJ", "category": "algorithmic_rent_setting"}
+    ],
+    "as_of": "2026-10-01"
+  },
+  "T3": {
+    "type": "as_of",
+    "describe": "NJ FAIR Act: enacted 2026-07-20, effective 2027-07-01. Possible preemption of the Jersey City and Hoboken ordinances.",
+    "selector": {"jurisdiction": "NJ", "level": "state", "category": "algorithmic_rent_setting"},
+    "before": "2026-10-01",
+    "after": "2027-07-02",
+    "conflict_with": [
+      {"jurisdiction": "Hoboken, NJ", "category": "algorithmic_rent_setting"},
+      {"jurisdiction": "Jersey City, NJ", "category": "algorithmic_rent_setting"}
+    ],
+    "conflict_note": "the NJ FAIR Act may preempt the local algorithmic-pricing ordinance once it takes effect"
+  },
+  "T4": {
+    "type": "pending",
+    "describe": "MA pending bills S.2983 and H.5222 (algorithmic pricing). Addresses affected if enacted.",
+    "selector": {"jurisdiction": "MA", "category": "algorithmic_rent_setting", "status": "pending"},
+    "as_of": "2026-10-01"
+  },
+  "T5": {
+    "type": "negative",
+    "describe": "MA rent-control ballot question was struck on 2026-06-23. No rent cap may be reported for Boston or Cambridge.",
+    "selector": [
+      {"jurisdiction": "MA", "category": "rent_increase_limits"},
+      {"jurisdiction": "Boston, MA", "category": "rent_increase_limits"},
+      {"jurisdiction": "Cambridge, MA", "category": "rent_increase_limits"}
+    ],
+    "as_of": "2026-10-01"
+  }
+}

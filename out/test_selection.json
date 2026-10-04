@@ -1,0 +1,53 @@
+{
+ "T1": [
+  {
+   "team_rule_id": "r-0028",
+   "jurisdiction": "CA",
+   "title": "Cartwright Act: violations \u2013 prohibition on use or distribution of common pricing algorithms",
+   "status": "in_force",
+   "effective_date": "2026-01-01"
+  }
+ ],
+ "T2": [],
+ "T3": [
+  {
+   "team_rule_id": "r-0087",
+   "jurisdiction": "NJ",
+   "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+   "status": "not_yet_effective",
+   "effective_date": "2027-07-01"
+  }
+ ],
+ "T4": [
+  {
+   "team_rule_id": "r-0051",
+   "jurisdiction": "MA",
+   "title": "An Act relative to preventing algorithmic rent fixing in the rental housing market",
+   "status": "pending",
+   "effective_date": null
+  },
+  {
+   "team_rule_id": "r-0052",
+   "jurisdiction": "MA",
+   "title": "An Act prohibiting algorithmic rent setting",
+   "status": "pending",
+   "effective_date": null
+  }
+ ],
+ "T5": [
+  {
+   "team_rule_id": "r-0053",
+   "jurisdiction": "MA",
+   "title": "General prohibition on rent control; limited municipal authority with strict conditions",
+   "status": "in_force",
+   "effective_date": null
+  },
+  {
+   "team_rule_id": "r-0020",
+   "jurisdiction": "Boston, MA",
+   "title": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections",
+   "status": "failed",
+   "effective_date": null
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+modules = ["python-3.12"]
+run = "pip install -q -r requirements.txt && streamlit run app.py --server.address 0.0.0.0 --server.port 8501"
+
+[[ports]]
+localPort = 8501
+externalPort = 80
+
+[deployment]
+deploymentTarget = "cloudrun"
+build = ["sh", "-c", "pip install -r requirements.txt"]
+run = ["sh", "-c", "streamlit run app.py --server.address 0.0.0.0 --server.port 8501"]

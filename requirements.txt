@@ -1,0 +1,6 @@
+openai>=1.40
+requests
+beautifulsoup4
+jsonschema
+pytest
+streamlit

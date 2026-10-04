@@ -1,0 +1,8 @@
+[server]
+headless = true
+# Replit and Streamlit Cloud serve the app through a proxy on another origin.
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+gatherUsageStats = false

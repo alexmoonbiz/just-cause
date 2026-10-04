@@ -1,0 +1,16 @@
+__pycache__/
+.pytest_cache/
+.venv/
+cache/
+.env
+.DS_Store
+smoke.log
+full.log
+
+# scratch outputs from smoke tests and probes; the app reads only the full-run files
+out/rules_smoke.json
+build/rules_smoke.json
+build/rules_ext_smoke.json
+build/rules_probe.json
+build/probe_verified.json
+build/probe_ext.json

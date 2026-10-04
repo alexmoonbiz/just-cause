@@ -1,0 +1,2156 @@
+{
+  "r-0001": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0002": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "3"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0003": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix",
+      "status corrected: effective date is on or before 2026-10-01"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0004": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0005": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0006": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0007": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0008": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0009": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0010": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0011": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0012": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0013": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [
+      "status corrected: effective date is on or before 2026-10-01"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0014": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [
+      "status corrected: effective date is on or before 2026-10-01"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0015": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "occupancy_date",
+            "op": ">=",
+            "value": "2025-01-01"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": "Exemption applies if rent was set under the Costa-Hawkins Rental Housing Act.",
+    "citation_check": "exact",
+    "notes": [
+      "status corrected: effective date is on or before 2026-10-01"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0016": {
+    "defers_to_local": false,
+    "coverage_dsl": [
+      {
+        "field": "year_built",
+        "op": "<",
+        "value": "1980"
+      }
+    ],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "golden_duplex"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "shared_kitchen_bath"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "adu"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "university"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "nonprofit_cooperative"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": "Some government-subsidized units are exempt if the project has a mortgage insured or held by HUD.",
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0017": {
+    "defers_to_local": false,
+    "coverage_dsl": [
+      {
+        "field": "year_built",
+        "op": "<",
+        "value": "1980"
+      }
+    ],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "golden_duplex"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "shared_kitchen_bath"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "adu"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "university"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "nonprofit_cooperative"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": "Some government-subsidized units are exempt if the project has a mortgage insured or held by HUD.",
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0018": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": "Coverage depends on whether the building receives DND funding or has BPDA Inclusionary Development Policy income-restricted units; this cannot be determined from year_built, units, or use_code.",
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official city-linked policy",
+    "supplementary": false
+  },
+  "r-0019": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": "Coverage depends on whether the building receives DND funding or has BPDA Inclusionary Development Policy income-restricted units; this cannot be determined from year_built, units, or use_code.",
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official city-linked policy",
+    "supplementary": false
+  },
+  "r-0020": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0021": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0022": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0023": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0024": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0025": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "2"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0026": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "2"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0027": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "2"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0028": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "!=",
+            "value": "end_consumer"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0029": {
+    "defers_to_local": true,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "year_built",
+            "op": ">=",
+            "value": "2011-04-01"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "single_family"
+          },
+          {
+            "field": "owner_type",
+            "op": "!=",
+            "value": "corporation"
+          },
+          {
+            "field": "owner_type",
+            "op": "!=",
+            "value": "real_estate_investment_trust"
+          },
+          {
+            "field": "owner_type",
+            "op": "!=",
+            "value": "limited_liability_company"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": "Exemption for single-family homes requires written notice to tenants as specified in the statute.",
+    "citation_check": "exact",
+    "notes": [
+      "status corrected: effective date is on or before 2026-10-01"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0030": {
+    "defers_to_local": true,
+    "coverage_dsl": [
+      {
+        "field": "occupancy_date",
+        "op": "<=",
+        "value": "2011-04-01"
+      }
+    ],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "occupancy_date",
+            "op": ">",
+            "value": "2011-04-01"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "==",
+            "value": "2"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0031": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0032": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "4"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "!=",
+            "value": "natural_person"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": "Only applies if the landlord is a natural person or LLC of natural persons and owns no more than two properties with a total of four or fewer units.",
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0033": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0034": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0035": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [
+      "status corrected: effective date is on or before 2026-10-01"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0036": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0037": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0038": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "2"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0039": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0040": {
+    "defers_to_local": false,
+    "coverage_dsl": [
+      {
+        "field": "units",
+        "op": ">=",
+        "value": "5"
+      }
+    ],
+    "exemption_dsl": [],
+    "unstructured_conditions": "Other exemptions may apply if a property owner meets the criteria for one of the permitted exemptions.",
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0041": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0042": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": "Tenant must have lived in the unit for at least six months or the original lease must have expired, whichever comes first.",
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0043": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0044": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0045": {
+    "defers_to_local": false,
+    "coverage_dsl": [
+      {
+        "field": "year_built",
+        "op": "<=",
+        "value": "1978-10-01"
+      }
+    ],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "in",
+            "value": "condominium,townhome"
+          },
+          {
+            "field": "occupancy_date",
+            "op": ">",
+            "value": "1995-12-31"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0046": {
+    "defers_to_local": false,
+    "coverage_dsl": [
+      {
+        "field": "year_built",
+        "op": "<=",
+        "value": "1978-10-01"
+      }
+    ],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "in",
+            "value": "condominium,townhome"
+          },
+          {
+            "field": "occupancy_date",
+            "op": ">",
+            "value": "1995-12-31"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0047": {
+    "defers_to_local": false,
+    "coverage_dsl": [
+      {
+        "field": "year_built",
+        "op": "<=",
+        "value": "1978-10-01"
+      }
+    ],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "in",
+            "value": "condominium,townhome"
+          },
+          {
+            "field": "occupancy_date",
+            "op": ">",
+            "value": "1995-12-31"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0048": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": "Coverage depends on whether the unit is subject to the RSO, which may require checking city records.",
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0049": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "resident_manager"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "disaster_eviction"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0050": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "4"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "natural_person"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0051": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0052": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0053": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "<",
+            "value": "10"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "residential"
+          },
+          {
+            "field": "year_built",
+            "op": ">=",
+            "value": "0"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": "Any owner may opt out of local rent control after six months; exemption for units with fair market rent exceeding $400.",
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0054": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0055": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "3"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "==",
+            "value": "2"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": "Exemption for dwellings with three apartments or less, one of which is occupied by an elderly or infirm person for whom the presence of children would constitute a hardship, cannot be expressed with available fields.",
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0056": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "==",
+            "value": "2"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0057": {
+    "defers_to_local": false,
+    "coverage_dsl": [
+      {
+        "field": "units",
+        "op": ">=",
+        "value": "10"
+      }
+    ],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0058": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0059": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0060": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "vacation_or_recreational"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "occupancy_date",
+            "op": "<=",
+            "value": "100"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0061": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "vacation_or_recreational"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "occupancy_date",
+            "op": "<=",
+            "value": "100"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix",
+      "status corrected: effective date is on or before 2026-10-01"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0062": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "vacation_or_recreational"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "occupancy_date",
+            "op": "<=",
+            "value": "100"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0063": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "vacation_or_recreational"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "occupancy_date",
+            "op": "<=",
+            "value": "100"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0064": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "vacation_or_recreational"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "occupancy_date",
+            "op": "<=",
+            "value": "100"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0065": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "!=",
+            "value": "hotel"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "!=",
+            "value": "hospital"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0066": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [
+      "status corrected: effective date is on or before 2026-10-01"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0067": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0068": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "4"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0069": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "4"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0070": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "4"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0071": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "4"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0072": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "real_estate_licensee"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [
+      "status corrected: effective date is on or before 2026-10-01"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0073": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "3"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "seasonal"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0074": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "3"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "seasonal"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0075": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "3"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "seasonal"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0076": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "3"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "seasonal"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0077": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "3"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "seasonal"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0078": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          },
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "3"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "seasonal"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0079": {
+    "defers_to_local": false,
+    "coverage_dsl": [
+      {
+        "field": "occupancy_date",
+        "op": ">=",
+        "value": "completion_of_construction"
+      }
+    ],
+    "exemption_dsl": [],
+    "unstructured_conditions": "The exemption period is calculated from the completion of construction, which may not be directly available as occupancy_date.",
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0080": {
+    "defers_to_local": true,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0081": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0082": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "2"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "3"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0083": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0084": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "2"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "<=",
+            "value": "3"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0085": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0086": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "==",
+            "value": "2"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "==",
+            "value": "1"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0087": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "trimmed_to_provable_prefix",
+    "notes": [
+      "quote trimmed to its provable prefix"
+    ],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0088": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "hotel"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "short_term_rental"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "occupancy_date",
+            "op": ">=",
+            "value": "2011-10-01"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "==",
+            "value": "1"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "==",
+            "value": "2"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": "Exemption for single-family homes/condos requires both qualifying ownership (not REIT/corporation/LLC with corporate member) and written notice to tenant; cannot be determined from building data alone.",
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0089": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "hotel"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "use_code",
+            "op": "==",
+            "value": "short_term_rental"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "occupancy_date",
+            "op": ">=",
+            "value": "2011-10-01"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "==",
+            "value": "1"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          }
+        ]
+      },
+      {
+        "all_of": [
+          {
+            "field": "units",
+            "op": "==",
+            "value": "2"
+          },
+          {
+            "field": "owner_type",
+            "op": "==",
+            "value": "owner_occupied"
+          }
+        ]
+      }
+    ],
+    "unstructured_conditions": "Exemption for single-family homes/condos requires both qualifying ownership (not REIT/corporation/LLC with corporate member) and written notice to tenant; cannot be determined from building data alone.",
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0090": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0091": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0092": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0093": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": "Covers only units subject to San Francisco rent control; coverage depends on local rent control status.",
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0094": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0095": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0096": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0097": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0098": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0099": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0100": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0101": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0102": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0103": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0104": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0105": {
+    "defers_to_local": false,
+    "coverage_dsl": [
+      {
+        "field": "occupancy_date",
+        "op": "<=",
+        "value": "1995-02-01"
+      }
+    ],
+    "exemption_dsl": [],
+    "unstructured_conditions": null,
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  },
+  "r-0106": {
+    "defers_to_local": false,
+    "coverage_dsl": [],
+    "exemption_dsl": [],
+    "unstructured_conditions": "Exemption for housing produced in the last 15 years cannot be expressed with available fields.",
+    "citation_check": "exact",
+    "notes": [],
+    "source_type": "official",
+    "supplementary": false
+  }
+}
